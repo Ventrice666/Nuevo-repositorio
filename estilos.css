@@ -1,0 +1,10 @@
+body{
+    background-image: url(/IMAGENES/guason.jpg);
+    background-attachment: fixed;
+    color: turquoise;
+}
+
+
+ol li img {
+  vertical-align: top;
+}
