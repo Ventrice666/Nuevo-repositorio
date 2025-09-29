@@ -1,10 +1,102 @@
 body{
-    background-image: url(/IMAGENES/guason.jpg);
-    background-attachment: fixed;
-    color: turquoise;
+  background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url(/IMAGENES/police-car.jpg);
+  background-attachment: fixed;
+  color: turquoise;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+section {
+  min-height: 60vh;
+  padding: 40px 0 60px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+}
+header{
+  color: whitesmoke;
+  background-color: cadetblue;
+  display: flex;
+}
+header h2{
+  padding-left: 32px;
+}
+.nosotros{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 20px;
+  width: 100%;
+  padding-right: 32px;
+}
+.nosotros{
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.nosotros:hover {
+  color: gold;
+  text-decoration: underline;
+}
+.navbar {
+  align-items: center;
+  background-color: tomato;
+  gap: 50px;
+  padding: 10px 0;
+  margin: 0;
+}
+.navbar a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.2s;
+}
+.navbar a:hover {
+  color: gold;
+  text-decoration: underline;
+}
+.formulario-contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.caja-lateral {
+  background: rgba(0,0,0,0.6);
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: stretch;
+  width: 300px;
+}
+.caja-lateral {
+  background: rgba(0,0,0,0.6);
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  float: left;
 }
 
-
-ol li img {
-  vertical-align: top;
+nav span{
+  padding-right: 50px;
+  padding-left: 32px;
+}
+.navbar .news{
+  float: right;
+  padding-right: 32px;
 }
