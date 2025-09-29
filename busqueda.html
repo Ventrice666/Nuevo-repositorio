@@ -1,84 +1,56 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Busqueda</title>
-  <link rel="stylesheet" href="estilos.css">
-</head>
-<body>
-  <header>
-    <img src="IMAGENES/Agregar algo de texto.jpg" alt="Imagen de los Encontradores Anonimos" width="1000" height="150">
-    <h1>LOS ENCONTRADORES ANONIMOS</h1>
-    <h2>Especialistas en busquedas de personas profugas</h2>
-    
-  </header>
+  <head>
+    <title>Busqueda</title>
+    <link rel="stylesheet" href="estilos.css">
+  </head>
+  <body>
+    <header>
+      <h2>Especialistas en busquedas de personas profugas</h2>
+      <a href="#" class="nosotros">NOSOTROS</a>
+    </header>
 
-  <div>
-    <hr>
-    
-    <ol>LOS MAS BUSCADOS</ol>
+    <nav class="navbar">
+      <span>Rango Delictivo</span>
       <a href="una_estrella.html">1 estrella</a>
-      <br>
       <a href="dos_estrellas.html">2 estrellas</a>
-      <br>
       <a href="tres_estrellas.html">3 estrellas</a>
-      <br>
       <a href="cuatro_estrellas.html">4 estrellas</a>
-      <br>
-      <a href="cinco_estrellas.html">5 entrellas</a>
-      <br>
-     <a target="_blank" a href="file:///C:/Users/Marcos%20Ventrice/Desktop/Tp-facultad/NOTICIAS.HTML" >NOTICIAS </a>
-     
-     <br>
-     
-    <p>NOSOTROS</p>
-    <hr>
+      <a href="cinco_estrellas.html">5 estrellas</a>
+      <a class="news" href="file:///C:/Users/Marcos%20Ventrice/Desktop/Tp-facultad/NOTICIAS.HTML">NOTICIAS</a>
+    </nav>
 
-  </div>
+    <section>
+      <div class="formulario-contenedor">
+        <div class="caja-lateral">
+          <h2>si tenes informacion de algun sospechoso, 
+            ingresa tus datos y nos contactamos con vos</h2>
+        </div>
+        <form  class="formulario" action="/buscar" method="GET">
+          <input type="text" name="nombre" placeholder="Nombre" required>
+          <input type="text" name="apellido" placeholder="Apellido" required>
+          <input type="text" name="edad" placeholder="Edad">
+          <input type="text" name="contacto" placeholder="contacto" required>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
 
-  <div>
-    <p> DESTACADOS</p>
-    <h2>"Nombre o alias"</h2>
-    <p>
-      <b>Edad aproximada:</b> [ej. 28 años] • 
-      <b>Estatura:</b> [ej. 1.75 m]
-    </p>
-    <p>
-      <b>Última ubicación conocida:</b> [Ciudad / Provincia]
-    </p>
-  </div>
-
-  <div>
-    <h4>Se busca por:</h4>
-    <ul>
-      <li>Secuestro</li>
-      <li>Hurto</li>
-      <li>Falsificación de datos</li>
-      <li>Uso de armas de guerra</li>
-    </ul>
-  </div>
-
-  <p>Si tenés información llamar al: <b>xxxxxxxxx</b></p>
-  <h1>NO ACERCARSE</h1>
-  
-
-  <footer>
-
-       <div>
-       <br>
-       <br>
-       <hr>
-       <p>Seguinos en todas nuestras redes para enterarte de todo</p>
-         <ul>
-           <li>Facebook</li>
-           <li>Instagram</li>
-           <li>X</li>
-           <li>Whatsapp</li>
-           </ul>
-           <br>
-           <p>© 2025 Todos los Derechos Reservados</p>
-           <p>“Esta página es un proyecto educativo de HTML. No corresponde a información real.”</p>
-           <hr>
-           </div>
-  </footer>
-</body>
+    <footer>
+      <div>
+        <hr>
+        <p>Seguinos en todas nuestras redes para enterarte de todo</p>
+        <ul>
+          <li>Facebook</li>
+          <li>Instagram</li>
+          <li>X</li>
+          <li>Whatsapp</li>
+        </ul>
+        <br>
+        <p>© 2025 Todos los Derechos Reservados</p>
+        <p>“Esta página es un proyecto educativo de HTML. No corresponde a información real.”</p>
+        <hr>
+      </div>
+    </footer>
+  </body>
 </html>
