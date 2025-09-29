@@ -1,4 +1,5 @@
 body{
+<<<<<<< HEAD
   background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url(/IMAGENES/police-car.jpg);
   background-attachment: fixed;
   color: turquoise;
@@ -90,6 +91,11 @@ header h2{
   margin-bottom: 20px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
   float: left;
+=======
+    background-image: url("/IMAGENES/guason.jpg");
+    background-attachment: fixed;
+    color: turquoise;
+>>>>>>> 424cd35 (cambios)
 }
 
 nav span{
