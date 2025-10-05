@@ -32,9 +32,15 @@ section p{
     text-align: center;
 }
 
-.contenedor-p{
-    color: red;
-    font-style: italic;
+.busqueda{
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.busqueda:hover {
+  color: red;
+  text-decoration: underline;
 }
 
 footer{    
