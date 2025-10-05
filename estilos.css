@@ -1,5 +1,5 @@
 body{
-  background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url(/IMAGENES/police-car.jpg);
+  background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url(IMAGENES/police-car.jpg);
   background-attachment: fixed;
   color: turquoise;
   background-size: cover;
