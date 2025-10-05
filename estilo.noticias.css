@@ -1,5 +1,13 @@
 body{ background-color: rgb(23, 23, 112);
-    color: aliceblue;
+    background-image:url(IMAGENES/gettyimages-166581183-2048x2048.jpg ) ;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    color:aliceblue;
+     margin: 0px;
+    padding: 0px;
+
 
 }
 h1 { text-align: center;
@@ -11,12 +19,28 @@ h2  { text-align: center;
 
 }
 p {
-
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-style: italic;
     text-align: justify;
 }
+<<<<<<< HEAD
 footer{
   text-align: center;
+=======
+p a{
+    color: red;
+    font-size: 23px;
+    font-style: italic
+    
+}
+h3{
+    font-size: 30px;
+}
+.pie-de-pagina { 
+    color: black;
+    background-image: url("IMAGENES/police-car.jpg");
+    font-family: 'Times New Roman', Times, serif;
+   
+>>>>>>> eb3c3493b818d1f2f8a51ffa42489d8610370fd7
 }
