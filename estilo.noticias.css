@@ -1,5 +1,4 @@
-body{ background-color: rgb(23, 23, 112);
-    background-image:url(IMAGENES/800w-ix3sXZSPVeg.webp);
+body{ background-color: rgb(59, 59, 136);
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,8 +21,23 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-style: italic;
-    text-align: justify;
+    text-align: center;
 }
-footer{
-  text-align: center;
+
+
+.pie-de-pagina {
+    background-color:cornflowerblue;
+    color: black;
+    text-align: center;
+    padding:20px;
+    height: 100%;
+
+}
+.titulo {
+    background-color: black;
+    padding: 20px;
+  
+}
+.boton {
+    background-color:cornflowerblue;
 }
