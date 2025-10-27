@@ -1,9 +1,5 @@
 body{
-<<<<<<< HEAD
   background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url(/IMAGENES/police-car.jpg);
-=======
-  background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url(IMAGENES/police-car.jpg);
->>>>>>> eb3c3493b818d1f2f8a51ffa42489d8610370fd7
   background-attachment: fixed;
   color: turquoise;
   background-size: cover;
@@ -106,4 +102,18 @@ nav span{
 }
 footer{
   text-align: center;
+}
+.btn-volver{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.btn-volver:hover{
+  background-color: #555;
 }
