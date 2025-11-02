@@ -1,4 +1,4 @@
-body{ background-color: rgb(59, 59, 136);
+body{ background-color: rgb(23, 23, 24);
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -6,9 +6,22 @@ body{ background-color: rgb(59, 59, 136);
     color:aliceblue;
      margin: 0px;
     padding: 0px;
+}
 
+body.claro{background-color: white;
+    color: black;
 
 }
+body.claro .titulo{
+    background-color: rgb(199, 199, 199);
+}
+body.claro .pie-de-pagina{
+    background-color: rgb(199, 199, 199);
+    color: black;
+}
+
+
+
 h1 { text-align: center;
     font-size: 60px;
 
@@ -26,8 +39,8 @@ p {
 
 
 .pie-de-pagina {
-    background-color:cornflowerblue;
-    color: black;
+    background-color:rgb(12, 12, 12);
+    color: rgb(169, 170, 76);
     text-align: center;
     padding:20px;
     height: 100%;
@@ -38,6 +51,16 @@ p {
     padding: 20px;
   
 }
-.boton {
-    background-color:cornflowerblue;
+
+
+
+.SUCRE {
+    text-align: center;
+   
+}
+button{
+    font-size: 20px;
+    border-radius: 15px;
+ border: none;
+    
 }
