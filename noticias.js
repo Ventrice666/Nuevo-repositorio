@@ -14,3 +14,17 @@ boton.addEventListener("click",function() {
     }
 
 });
+let nombre = prompt("Ingrese su nombre:");
+alert("Hola, "+ nombre + " Bienvenido a la seccion NOTICIAS. Necesitamos que nos conteste la siguiente pregunta.");
+let edad  = prompt("Ingrese su edad...");
+edad = parseInt(edad);
+if (isNaN(edad)){
+alert("El caracter ingresado no es un numero, porfavor ingrese su edad");
+} else {
+    if (edad >= 18){
+    alert("Bienvenido, puede ingresar");
+}
+else {
+alert ("ACCESO RESTRINGIDO");
+}
+}
