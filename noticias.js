@@ -15,7 +15,7 @@ boton.addEventListener("click",function() {
 
 });
 let nombre = prompt("Ingrese su nombre:");
-alert("Hola, "+ nombre + " Bienvenido a la seccion NOTICIAS. Necesitamos que nos conteste la siguiente pregunta.");
+alert("Hola "+ nombre + " Bienvenido a la seccion NOTICIAS. Necesitamos que nos conteste la siguiente pregunta.");
 let edad  = prompt("Ingrese su edad...");
 edad = parseInt(edad);
 if (isNaN(edad)){
