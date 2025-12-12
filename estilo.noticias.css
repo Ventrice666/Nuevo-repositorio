@@ -54,13 +54,16 @@ p {
 
 
 
-.SUCRE {
+#SUCRE {
     text-align: center;
    
 }
 button{
     font-size: 20px;
     border-radius: 15px;
- border: none;
+    border: none;
     
+}
+h3{
+    font-size: 25px;
 }
