@@ -24,17 +24,19 @@ body.claro .pie-de-pagina{
 
 h1 { text-align: center;
     font-size: 60px;
-
+    font-family:Tahoma, Geneva, Verdana, sans-serif
 }
 h2  { text-align: center;
     font-size: 20px;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
 
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-style: italic;
-    text-align: center;
+    text-align: justify;
+    line-height: 1.4;
 }
 
 
@@ -44,6 +46,7 @@ p {
     text-align: center;
     padding:20px;
     height: 100%;
+    font-size: 16px;
 
 }
 .titulo {
@@ -66,4 +69,17 @@ button{
 }
 h3{
     font-size: 25px;
+}
+.partefinal{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.redes{
+    text-align: center;
+    font-size: 16px;
+    font-family: Georgia;
+    
+    
 }
