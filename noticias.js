@@ -22,9 +22,9 @@ if (isNaN(edad)){
 alert("El caracter ingresado no es un numero, porfavor ingrese su edad");
 } else {
     if (edad >= 18){
-    alert("Bienvenido, puede ingresar");
+    alert("Bienvenido, usted es mayor de edad, tiene acceso a toda la web.");
 }
 else {
-alert ("ACCESO RESTRINGIDO");
+alert ("Bienvenido, usted es menor de edad, algunos accesos seran denegados.");
 }
 }
