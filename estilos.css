@@ -12,7 +12,6 @@ section {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  box-sizing: border-box;
 }
 header{
   color: whitesmoke;
@@ -66,13 +65,6 @@ header h2{
   max-width: 900px;
   margin: 0 auto;
 }
-.caja-lateral {
-  background: rgba(0,0,0,0.6);
-  color: white;
-  border-radius: 10px;
-  padding: 20px;
-  width: 300px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 .formulario {
   display: flex;
